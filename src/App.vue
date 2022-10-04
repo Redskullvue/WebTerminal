@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Terminal
+    msg1="Hello My name is "
+    name=" Pooya Goodarzi "
+    msg2="i am 22 years old and trying to make it as a front-end developer"
+  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Terminal from "./components/terminal.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Terminal,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
